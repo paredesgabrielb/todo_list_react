@@ -51,7 +51,7 @@ const TodoList = () => {
                 <div key={index} className='todo-card'>
                     <div className='heading_todo'>
                         <h3>{todo.heading}</h3>
-                        <button className='delete-button-heading' onClick={() => handleDeleteTodo(index)}>Delete Heading</button>
+                        <button className='delete-button-heading' onClick={handleDeleteTodo}>Delete Heading</button>
                     </div>
                     <ul>
                     { todo.lists.map((list, listIndex) => (
