@@ -113,7 +113,21 @@
 }
 .todo_inside_list {
     display: flex;
+<<<<<<< HEAD
     gap: 140px;
     margin: 10px;
 }
 
+=======
+    gap: 10px;
+    margin: 10px;
+}
+
+.list-item-text{
+    max-width: 80%;
+}
+
+.list-delete-button{
+    max-width: 20%;
+}
+>>>>>>> f67ba9a (resolve delete item)
